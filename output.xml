@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.2.2 (Python 3.13.1 on win32)" generated="2025-02-16T18:13:20.748720" rpa="false" schemaversion="5">
+<suite id="s1" name="Login Test" source="C:\Users\adamx\OneDrive\Área de Trabalho\Projeto Robot e Playwrite\projeto-robot-playwrite\tests\robot\login_test.robot">
+<test id="s1-t1" name="Given" line="11">
+<kw name="Eu navego para a pagina de login">
+<msg time="2025-02-16T18:13:21.214543" level="FAIL">No keyword with name 'Eu navego para a pagina de login' found.</msg>
+<status status="FAIL" start="2025-02-16T18:13:21.213856" elapsed="0.000806">No keyword with name 'Eu navego para a pagina de login' found.</status>
+</kw>
+<kw name="Open Browser" owner="SeleniumLibrary">
+<arg>${URL}</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="NOT RUN" start="2025-02-16T18:13:21.215359" elapsed="0.000048"/>
+</kw>
+<status status="FAIL" start="2025-02-16T18:13:21.210882" elapsed="0.004795">No keyword with name 'Eu navego para a pagina de login' found.</status>
+</test>
+<test id="s1-t2" name="When" line="13">
+<kw name="Eu entro com credenciais válidas">
+<msg time="2025-02-16T18:13:21.219069" level="FAIL">No keyword with name 'Eu entro com credenciais válidas' found.</msg>
+<status status="FAIL" start="2025-02-16T18:13:21.218998" elapsed="0.000127">No keyword with name 'Eu entro com credenciais válidas' found.</status>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<arg>id=username</arg>
+<arg>${USERNAME}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" start="2025-02-16T18:13:21.219467" elapsed="0.000030"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<arg>id=password</arg>
+<arg>${PASSWORD}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" start="2025-02-16T18:13:21.219715" elapsed="0.000028"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<arg>id=login</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="NOT RUN" start="2025-02-16T18:13:21.219951" elapsed="0.000027"/>
+</kw>
+<status status="FAIL" start="2025-02-16T18:13:21.216778" elapsed="0.003481">No keyword with name 'Eu entro com credenciais válidas' found.</status>
+</test>
+<test id="s1-t3" name="Then" line="17">
+<kw name="Eu devo ver o dashboard">
+<msg time="2025-02-16T18:13:21.224294" level="FAIL">No keyword with name 'Eu devo ver o dashboard' found.</msg>
+<status status="FAIL" start="2025-02-16T18:13:21.224254" elapsed="0.000083">No keyword with name 'Eu devo ver o dashboard' found.</status>
+</kw>
+<kw name="Element Should Be Visible" owner="SeleniumLibrary">
+<arg>id=dashboard</arg>
+<doc>Verifies that the element identified by ``locator`` is visible.</doc>
+<status status="NOT RUN" start="2025-02-16T18:13:21.224541" elapsed="0.000028"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="NOT RUN" start="2025-02-16T18:13:21.224749" elapsed="0.000026"/>
+</kw>
+<status status="FAIL" start="2025-02-16T18:13:21.221997" elapsed="0.002981">No keyword with name 'Eu devo ver o dashboard' found.</status>
+</test>
+<status status="FAIL" start="2025-02-16T18:13:20.751009" elapsed="0.475355"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="3" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Login Test" id="s1" pass="0" fail="3" skip="0">Login Test</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2025-02-16T18:13:21.209280" level="ERROR">Error in file 'C:\Users\adamx\OneDrive\Área de Trabalho\Projeto Robot e Playwrite\projeto-robot-playwrite\tests\robot\login_test.robot' on line 3: Importing library 'GherkinLibrary' failed: ModuleNotFoundError: No module named 'GherkinLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Users\adamx\OneDrive\Área de Trabalho\Projeto Robot e Playwrite\projeto-robot-playwrite\env\Scripts\robot.exe
+  C:\Python313\python313.zip
+  C:\Python313\DLLs
+  C:\Python313\Lib
+  C:\Python313
+  C:\Users\adamx\OneDrive\Área de Trabalho\Projeto Robot e Playwrite\projeto-robot-playwrite\env
+  C:\Users\adamx\OneDrive\Área de Trabalho\Projeto Robot e Playwrite\projeto-robot-playwrite\env\Lib\site-packages</msg>
+</errors>
+</robot>
